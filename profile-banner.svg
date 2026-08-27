@@ -2,6 +2,24 @@
   <title id="title">Oh Doyoung — Vision AI and Backend Engineer</title>
   <desc id="desc">Black editorial banner with acid green accents for Oh Doyoung's GitHub profile.</desc>
   <defs>
+    <style>
+      .orbit { stroke-dasharray: 18 14; animation: orbit 12s linear infinite; }
+      .orb { transform-box: fill-box; transform-origin: center; animation: breathe 4s ease-in-out infinite; }
+      .satellite { transform-origin: 1213px 170px; animation: spin 7s linear infinite; }
+      .scan { animation: scan 4.8s ease-in-out infinite; }
+      .signal { animation: signal 1.8s steps(1, end) infinite; }
+      @keyframes orbit { to { stroke-dashoffset: -128; } }
+      @keyframes breathe { 50% { transform: scale(1.06); } }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes scan {
+        0%, 12% { width: 0; opacity: .35; }
+        72%, 100% { width: 832px; opacity: 1; }
+      }
+      @keyframes signal { 0%, 58% { opacity: 1; } 59%, 100% { opacity: .25; } }
+      @media (prefers-reduced-motion: reduce) {
+        .motion { animation: none !important; }
+      }
+    </style>
     <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.5" fill="#2b2b28"/>
     </pattern>
@@ -13,17 +31,18 @@
 
   <rect width="1440" height="460" rx="24" fill="#11110f"/>
   <rect width="1440" height="460" rx="24" fill="url(#dots)"/>
-  <path d="M990 -50c-92 131-96 291 19 414s279 89 405-19" fill="none" stroke="#34342f" stroke-width="2"/>
-  <path d="M1067 -28c-66 115-63 226 24 319s197 80 300 5" fill="none" stroke="#34342f" stroke-width="2"/>
-  <circle cx="1213" cy="170" r="92" fill="url(#fade)"/>
+  <path class="motion orbit" d="M990 -50c-92 131-96 291 19 414s279 89 405-19" fill="none" stroke="#34342f" stroke-width="2"/>
+  <path class="motion orbit" d="M1067 -28c-66 115-63 226 24 319s197 80 300 5" fill="none" stroke="#34342f" stroke-width="2" style="animation-direction: reverse; animation-duration: 9s"/>
+  <circle class="motion orb" cx="1213" cy="170" r="92" fill="url(#fade)"/>
+  <circle class="motion satellite" cx="1213" cy="61" r="7" fill="#d9ff43"/>
   <text x="1213" y="196" text-anchor="middle" fill="#11110f" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="900" letter-spacing="-7">OD</text>
 
-  <rect x="54" y="44" width="13" height="13" rx="2" fill="#d9ff43"/>
+  <rect class="motion signal" x="54" y="44" width="13" height="13" rx="2" fill="#d9ff43"/>
   <text x="80" y="55" fill="#f0eee6" font-family="Courier New, monospace" font-size="14" font-weight="700" letter-spacing="2">DALLGOO / VISION AI + BACKEND</text>
   <text x="1386" y="55" text-anchor="end" fill="#99998f" font-family="Courier New, monospace" font-size="13" font-weight="700" letter-spacing="2">SEOUL · KST</text>
 
   <text x="52" y="244" fill="#f0eee6" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="900" letter-spacing="-8">OH DOYOUNG</text>
-  <rect x="55" y="276" width="832" height="3" fill="#d9ff43"/>
+  <rect class="motion scan" x="55" y="276" width="832" height="3" fill="#d9ff43"/>
   <text x="54" y="322" fill="#c9c8bf" font-family="Courier New, monospace" font-size="19" font-weight="700" letter-spacing="1.7">BUILDING THE LAYER BETWEEN INTELLIGENCE AND THE REAL WORLD.</text>
 
   <text x="54" y="408" fill="#77776f" font-family="Courier New, monospace" font-size="13" font-weight="700" letter-spacing="2">FIELD  /  EVIDENCE  /  SAFETY  /  CONNECTION</text>
