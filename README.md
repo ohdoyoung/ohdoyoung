@@ -93,15 +93,6 @@ Observable, safe product in the field
 
 ---
 
-### 📊 GitHub Stats
-
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ohdoyoung&show_icons=true&hide_border=true&theme=transparent" alt="Oh Doyoung's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ohdoyoung&layout=compact&hide_border=true&theme=transparent" alt="Oh Doyoung's most used languages" />
-</p>
-
----
-
 ### Find me
 
 [GitHub](https://github.com/ohdoyoung) · [Tistory](https://dhehdud456.tistory.com/) · [DALLGOO](https://dallgoo.com/about)
