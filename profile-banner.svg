@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 460" role="img" aria-labelledby="title desc">
+  <title id="title">Oh Doyoung — Vision AI and Backend Engineer</title>
+  <desc id="desc">Black editorial banner with acid green accents for Oh Doyoung's GitHub profile.</desc>
+  <defs>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#2b2b28"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#d9ff43"/>
+      <stop offset="1" stop-color="#84ffbd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="460" rx="24" fill="#11110f"/>
+  <rect width="1440" height="460" rx="24" fill="url(#dots)"/>
+  <path d="M990 -50c-92 131-96 291 19 414s279 89 405-19" fill="none" stroke="#34342f" stroke-width="2"/>
+  <path d="M1067 -28c-66 115-63 226 24 319s197 80 300 5" fill="none" stroke="#34342f" stroke-width="2"/>
+  <circle cx="1213" cy="170" r="92" fill="url(#fade)"/>
+  <text x="1213" y="196" text-anchor="middle" fill="#11110f" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="900" letter-spacing="-7">OD</text>
+
+  <rect x="54" y="44" width="13" height="13" rx="2" fill="#d9ff43"/>
+  <text x="80" y="55" fill="#f0eee6" font-family="Courier New, monospace" font-size="14" font-weight="700" letter-spacing="2">DALLGOO / VISION AI + BACKEND</text>
+  <text x="1386" y="55" text-anchor="end" fill="#99998f" font-family="Courier New, monospace" font-size="13" font-weight="700" letter-spacing="2">SEOUL · KST</text>
+
+  <text x="52" y="244" fill="#f0eee6" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="900" letter-spacing="-8">OH DOYOUNG</text>
+  <rect x="55" y="276" width="832" height="3" fill="#d9ff43"/>
+  <text x="54" y="322" fill="#c9c8bf" font-family="Courier New, monospace" font-size="19" font-weight="700" letter-spacing="1.7">BUILDING THE LAYER BETWEEN INTELLIGENCE AND THE REAL WORLD.</text>
+
+  <text x="54" y="408" fill="#77776f" font-family="Courier New, monospace" font-size="13" font-weight="700" letter-spacing="2">FIELD  /  EVIDENCE  /  SAFETY  /  CONNECTION</text>
+  <text x="1386" y="408" text-anchor="end" fill="#d9ff43" font-family="Courier New, monospace" font-size="13" font-weight="700" letter-spacing="2">PROFILE — 2026 ↗</text>
+</svg>
